@@ -44,3 +44,20 @@ function actualizarListaAmigos(){
     }
 
 }
+
+function sortearAmigo(){
+    // Obtener posición del array aleatorio
+    let numeroAleatorio = parseInt(Math.floor(Math.random() * amigos.length));
+
+    console.log("numero aleatorio es: " + numeroAleatorio);
+
+    if (amigos.length == 0) {
+        alert("Primero debes ingresar nombres");
+        return;
+    }
+    
+    let nombreAleatorio = amigos[numeroAleatorio]
+
+    document.getElementById("resultado").innerHTML=(`El amigo ganador es: ${nombreAleatorio}`);
+
+}
