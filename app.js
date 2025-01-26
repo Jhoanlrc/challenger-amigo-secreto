@@ -12,7 +12,7 @@ function agregarAmigo() {
         return;
     } else {
         amigos.push(nombreUsuario);
-        console.log("lista nombres tiene  " + amigos.length + (amigos.length == 1 ? " nombre" : " nombres"));       
+        console.log("lista amigos tiene  " + amigos.length + (amigos.length == 1 ? " nombre" : " nombres"));       
         // Limpiar cajita
         document.getElementById("amigo").value = "";
 
@@ -49,7 +49,7 @@ function sortearAmigo(){
     // Obtener posición del array aleatorio
     let numeroAleatorio = parseInt(Math.floor(Math.random() * amigos.length));
 
-    console.log("numero aleatorio es: " + numeroAleatorio);
+    console.log("número aleatorio es: " + numeroAleatorio);
 
     if (amigos.length == 0) {
         alert("Primero debes ingresar nombres");
