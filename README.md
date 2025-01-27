@@ -27,3 +27,6 @@ Esta página web te permite organizar y sortear un juego de amigo secreto de man
 - Posibilidad de enviar los resultados por correo electrónico.
 - Opción para excluir combinaciones específicas (por ejemplo, evitar que alguien se sortee a sí mismo).
 - Compatibilidad con múltiples idiomas.
+
+## Acceso a la Aplicación
+Puedes acceder al juego desde el siguiente enlace: [Challenger Amigo Secreto](https://jhoanlrc.github.io/challenger-amigo-secreto/)
